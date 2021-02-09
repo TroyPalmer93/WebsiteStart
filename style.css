@@ -1,9 +1,11 @@
+/* changes main website background color*/
 body {background-color: coral;}
 
 h1:first-child {
   color: blue;
 }
-<! LoVeHAte pseudo usage>
+
+/* <! LoVeHAte pseudo usage> */
 a:link {
   color: #FF0000;
 }
@@ -19,9 +21,11 @@ a:hover {
 a:active {
   color: #0000FF;
 }
+/*Adds height requirement to image, will be changing all of this later*/
 img{
   height: 100px
 }  
+/* selecting font type, color, size, and alignment. */ 
 html, h1, h2, p > li {
   font-family: 'Times New Romaar', Times, serif;
   color: rgb(102, 57, 57);
