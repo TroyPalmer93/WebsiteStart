@@ -22,7 +22,7 @@ a:active {
 img{
   height: 100px
 }  
-html, h1, h2, p {
+html, h1, h2, p > li {
   font-family: 'Times New Romaar', Times, serif;
   color: rgb(102, 57, 57);
   font-size: 24px;
