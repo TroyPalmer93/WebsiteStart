@@ -1,35 +1,67 @@
 <!DOCTYPE html>
+<! displaying htlm doctype>
 <html>
-<head>
+<! adding head and meta requirements>
+  <head>
+    <meta charset="utf-8">
+    <meta name="AboutTroy" content="width=device-width">
+    <title>Troys Thinkful</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div>
+<! demonstrating Pesudoclass color change.>
+<! Adding anchor ref/links>
+        <h1>Troy</h1>
+        <h1>Palmer</h1>
+        <img src="images/sailing.jpg" alt="Old sailboat" />
+        <nav>
+          <a href="#Intro">Intro</a>
+          <a href="#About">About</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-<title>My Favorite Pizza</title>
+<hr></hr>
+    <main>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+        <article id = "Intro">
+            <header>
+              <h2>Introduction</h2>
+            </header>
+            <p>Hello, my name is Troy Palmer! I am currently living in Murrieta, CA and interesting in pursuing a career path in coding! Few things have brought me here!</p>
+            <ul>
+              <li>Interest in Computers</li>
+              <li>Solving of logic puzzles</li>
+              <li>Recommendations from peers</li>
+            </ul>  
+        </article>
+        <hr></hr>            
+        <article id = "About">
+            <header>
+              <h2>About me!</h2>
+            </header>
+            <p>From a young age I've been interested in computers and how they work in general. Wondering how these tools would be able to make the world a more efficient place and make work easier for all who use it well. That and the games that can be produced!I come from a warehousing and production management background so I understand the importance of working as a team, along with the fact that</p>
+        </article>
+        <hr></hr>
+        <article id = "Contact">
+            <header>
+              <h2>Contact me!</h2>
+            </header>
+            <p>Below is the contact information ordered in fastest way to reach me</p>
+            <ol>
+              <li><a href="url">link text</a></li>
+              <li><a href="url">link text</a></li>
+        </article>
+     
+    </main>
+<hr></hr>
+    <footer>
+     <p>Thank you so much for vising my new site!
+    </footer>
 
-<link href="style.css" rel="stylesheet" type="text/css" />
-
-</head>
-
-<body>
-
-<!-- WEB PAGE CONTENT HERE -->
-
-<div class="pageContainer">
-  <div class="imageContainer"> 
-    <img src="images/pizza.jpg" alt="Pizza with pepperoni and cheese." /> 
-  </div>
-  <div class="textContainer">
-    <h1>Pizza!</h1>
-    <p>My Favorite Toppings: </p>
-    <ul>
-      <li>Pepperoni</li>
-      <li>Mozzarella Cheese</li>
-      <li>Mushrooms</li>
-    </ul>
-  </div>
-</div>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
