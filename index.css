@@ -89,7 +89,7 @@ section.portfolio {
 }
 
 footer {
-  background-color: hsl(0, 88%, 69%);
+  background-color: hsl(0, 27%, 25%);
   margin-top: 40px;
   margin-bottom: 0;
 }
@@ -147,7 +147,7 @@ main a:hover {
   color: #77dd77;
 }
 a:active {
-  color: #77dd77;
+  color: #bae4ba;
 }
 
 a:hover {
@@ -176,6 +176,7 @@ img.image-enhanced {
 .item {
   flex: 1;
   margin: 10px;
+  color:azure;
 }
 
 .item-double {
